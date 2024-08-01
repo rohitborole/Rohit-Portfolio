@@ -617,7 +617,6 @@ body.nav-active { overflow: hidden; }
 }
 .feature-card1 {
   padding: 20px;
-  height: 200px;
   border-radius: var(--radius-16);
   transition: var(--transition-1);
 }
