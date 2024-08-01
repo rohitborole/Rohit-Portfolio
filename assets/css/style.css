@@ -631,6 +631,14 @@ body.nav-active { overflow: hidden; }
   transform: translateY(-2px) scale(1.08);
   transition: var(--transition-1);
  }
+.feature-card1:is(:hover, :focus-within) { 
+  box-shadow: var(--shadow-2);
+  background-image: linear-gradient(var(--bg-oxford-blue), var(--bg-oxford-blue)), var(--gradient-1);
+  background-clip: padding-box, border-box;
+  border-color: transparent;
+  transform: translateY(-2px) scale(1.08);
+  transition: var(--transition-1);
+ }
 
 .feature-card .card-banner { border-radius: var(--radius-16); }
 
