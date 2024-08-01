@@ -612,7 +612,6 @@ body.nav-active { overflow: hidden; }
 
 .feature-card {
   padding: 20px;
-  height: 480px;
   border-radius: var(--radius-16);
   transition: var(--transition-1);
 }
